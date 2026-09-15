@@ -121,6 +121,11 @@ header p { font-size: 1.15em; opacity: 0.9; max-width: 620px; margin: 0 auto; }
 .review-banner.unreviewed { background: #fff8e6; border: 2px solid #e8b93b; color: #6a5312; }
 .review-banner.unreviewed strong, .review-banner.unreviewed a { color: #8a6a12; }
 .review-banner.reviewed { background: #eaf6f0; border: 2px solid #2e9e6b; color: #1c5b3f; }
+/* Sourced but not clinically reviewed. Neutral rather than amber: the page is
+   checked against its citations, it simply has no clinician behind it, and a
+   warning colour on every page would cry wolf. */
+.review-banner.sourced { background: #eef1f6; border: 2px solid #b9c3d4; color: #3c4658; }
+.review-banner.sourced strong, .review-banner.sourced a { color: #2f3949; }
 .review-banner.reviewed strong, .review-banner.reviewed a { color: #1c5b3f; }
 @media (max-width: 600px) { .review-banner { margin: 0 14px 20px; font-size: 0.87em; } }
 
